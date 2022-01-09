@@ -16,3 +16,9 @@ buildscript {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    livedata_ktx='2.3.0'
+    activityKtxVersion= '1.2.0'
+    moshiVersion = '1.11.0'
+}
