@@ -17,4 +17,5 @@ sealed class Resource<out T>(
 
     class DataError(code: Int? = 0, msg: String?) : Resource<Nothing>(null, code, msg)
 
+    class NetException(val ex: Exception): Resource<Nothing>()
 }
