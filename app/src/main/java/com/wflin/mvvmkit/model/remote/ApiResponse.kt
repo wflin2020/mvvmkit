@@ -8,7 +8,7 @@ package com.wflin.mvvmkit.model.remote
 abstract class ApiResponse<T>(
     val errorCode: Int?,
     val errorMsg: String?,
-    val data: T?
+    val data: T
 ) {
     abstract fun isSuccess(): Boolean
 }
