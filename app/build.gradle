@@ -58,4 +58,6 @@ dependencies {
     // json parser：moshi
     implementation "com.squareup.moshi:moshi:$moshiVersion"
     kapt "com.squareup.moshi:moshi-kotlin-codegen:$moshiVersion"
+    // retrofit
+    implementation "com.squareup.retrofit2:converter-moshi:$retrofitVersion"
 }

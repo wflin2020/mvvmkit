@@ -21,4 +21,5 @@ ext {
     livedata_ktx='2.3.0'
     activityKtxVersion= '1.2.0'
     moshiVersion = '1.11.0'
+    retrofitVersion = '2.9.0'
 }
