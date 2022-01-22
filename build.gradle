@@ -22,4 +22,5 @@ ext {
     activityKtxVersion= '1.2.0'
     moshiVersion = '1.11.0'
     retrofitVersion = '2.9.0'
+    ext.hilt_version ='2.33-beta'
 }
